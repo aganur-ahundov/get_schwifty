@@ -13,8 +13,4 @@ jQuery(document).ready(function ($) {
             autoTyped = true;
         }
     });
-
-    $(window).on('resize', function () {
-        headerHeight = mainHeader.height();
-    });
 });
